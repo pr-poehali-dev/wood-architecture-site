@@ -1,6 +1,6 @@
 const ParametricWaves = () => {
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+    <div className="fixed inset-0 overflow-hidden pointer-events-none opacity-60 z-0">
       <svg
         className="absolute w-full h-full"
         xmlns="http://www.w3.org/2000/svg"

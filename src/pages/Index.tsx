@@ -44,7 +44,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-background relative">
       <ParametricWaves />
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border relative">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold text-primary tracking-tight">
             PARAMETRIC FACADES
@@ -65,7 +65,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="pt-32 pb-20 px-4">
+      <section className="pt-32 pb-20 px-4 relative z-10">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
@@ -109,7 +109,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-muted/30">
+      <section id="about" className="py-20 px-4 bg-muted/30 relative z-10">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">О технологии</h2>
@@ -153,7 +153,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="projects" className="py-20 px-4">
+      <section id="projects" className="py-20 px-4 relative z-10">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Наши проекты</h2>
@@ -185,7 +185,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-20 px-4 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <section id="contact" className="py-20 px-4 bg-gradient-to-br from-primary/5 to-secondary/5 relative z-10">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Свяжитесь с нами</h2>
@@ -279,7 +279,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="py-8 px-4 border-t border-border">
+      <footer className="py-8 px-4 border-t border-border relative z-10">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
           <p>© 2024 Parametric Facades. Фасады из массива дерева</p>
         </div>
